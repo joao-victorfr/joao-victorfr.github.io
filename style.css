@@ -27,7 +27,30 @@ body{
     margin-top: 20px;
 }
 
+.presentation img{
+    margin-top: 30px;
+}
 
+#img-circle{
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.description{
+    position: absolute;
+    top: 530px;
+    right: 250px;
+    font-size: large;
+    width: 700px;
+    margin-left: 251px;
+}
+
+.description-title{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 120px;
+    left: 300px;
+}
 
 #nome{
     font-family: 'Courier New', Courier, monospace;
