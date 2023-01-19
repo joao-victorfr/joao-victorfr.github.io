@@ -21,6 +21,12 @@ body{
     box-shadow: 21px 19px 50px 0 #02020296;;
 }
 
+.presentation{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 
 #nome{
