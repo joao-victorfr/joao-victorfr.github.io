@@ -1,6 +1,27 @@
-body{
-    background-color: #a3b18a;
+*{
+    margin: 0px;
+    border: 0px;
 }
+
+body{
+    background-color: #474bff;
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background-attachment: fixed;
+}
+
+.second-block{
+    position: absolute;
+    left: 251px;
+    height: 700px;
+    width: 1000px;
+    background: rgba(255,255,255, 0.3);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    top: 50px;
+    box-shadow: 21px 19px 50px 0 #02020296;;
+}
+
+
 
 #nome{
     font-family: 'Courier New', Courier, monospace;
