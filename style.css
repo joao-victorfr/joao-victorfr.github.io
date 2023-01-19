@@ -43,6 +43,7 @@ body{
     font-size: large;
     width: 700px;
     margin-left: 251px;
+    
 }
 
 .contact{
@@ -53,8 +54,12 @@ body{
     border: 3px solid rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     padding: 5px;
-    
 }
+
+.contact h3{
+    margin-left: 15px;
+}
+
 .contact ul{
     list-style: none;
 }
@@ -97,19 +102,18 @@ body{
     top: 100px;
     padding: 5px;
     width: 250px;
-    line-height: 100px;
-
+    line-height: 20px;
 }
 .skills ul{
     list-style: none;
     margin-top: 100px;
-    
 }
 
 #skills-title{
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     position: absolute;
-    right: 10px;
+    right: 45px;
+    top: 40px;
 }
 
 #first-skill{
@@ -118,6 +122,7 @@ body{
     margin: 30px;
     border-radius: 20px;
     box-shadow: 21px 10px 60px 0 #02020296;
+    padding: 15px;
 }
 
 #second-skill{
@@ -126,6 +131,7 @@ body{
     margin: 30px;
     border-radius: 20px;
     box-shadow: 21px 10px 60px 0 #02020296;
+    padding: 15px;
 }
 
 #third-skill{
@@ -134,11 +140,17 @@ body{
     margin: 30px;
     border-radius: 20px;
     box-shadow: 21px 10px 60px 0 #02020296;
+    padding: 15px;
 }
 
-.description-title{
+#description-title{
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    bottom: 120px;
+    bottom: 5px;
     left: 300px;
+}
+
+#description-text{
+    position: absolute;
+    top: 50px;
 }
